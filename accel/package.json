@@ -1,0 +1,9 @@
+{
+  "name": "accel",
+  "version": "0.0.1",
+  "description": "Stream readings from accelerometer",
+
+  "dependencies": {
+    "accel-mma84": "0.2.3"
+  }
+}
