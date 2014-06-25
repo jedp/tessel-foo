@@ -1,0 +1,9 @@
+{
+  "name": "ambient",
+  "version": "0.0.1",
+  "description": "Snap fingers for sound-trigger level and ambient light level",
+
+  "dependencies": {
+    "ambient-attx4": "0.1.4"
+  }
+}
