@@ -1,0 +1,9 @@
+{
+  "name": "climate",
+  "version": "0.0.1",
+  "description": "Press Config button for temp and humidity",
+
+  "dependencies": {
+    "climate-si7005": "0.1.3"
+  }
+}
