@@ -1,0 +1,10 @@
+{
+  "name": "snappycam",
+  "version": "0.0.1",
+  "description": "Snap your fingers, it snaps a picture",
+
+  "dependencies": {
+    "ambient-attx4": "0.1.4",
+    "camera-vc0706": "0.1.6"
+  }
+}
