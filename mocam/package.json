@@ -1,0 +1,9 @@
+{
+  "name": "mocam",
+  "version": "0.0.1",
+  "description": "Trigger camera with IR motion detector",
+
+  "dependencies": {
+    "camera-vc0706": "0.1.6"
+  }
+}
