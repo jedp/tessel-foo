@@ -1,0 +1,5 @@
+{
+  "name": "motion",
+  "version": "0.0.1",
+  "description": "Detect motion with PIR sensor on GPIO"
+}
