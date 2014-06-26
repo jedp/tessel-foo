@@ -1,0 +1,10 @@
+{
+  "name": "ambient_serv",
+  "version": "0.0.1",
+  "description": "Web app serving climate and ambient conditions",
+
+  "dependencies": {
+    "ambient-attx4": "0.1.4",
+    "climate-si7005": "0.1.3"
+  }
+}
