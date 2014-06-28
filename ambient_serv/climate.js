@@ -7,7 +7,7 @@ var tessel = require('tessel');
 var climate = require('climate-si7005').use(tessel.port.A);
 
 var getClimate = function(callback) {
-  callback(new Error("Climate module not ready"));
+  callback(new Error('Climate module not ready'));
 };
 
 climate.on('ready', function() {

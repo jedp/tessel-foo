@@ -12,7 +12,7 @@ function pad(s) {
   if (slen >= length) {
     return s;
   }
-  return "     ".slice(0, length-slen) + s;
+  return '     '.slice(0, length-slen) + s;
 }
 
 accel.on('ready', function() {

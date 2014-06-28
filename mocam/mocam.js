@@ -16,7 +16,7 @@ var takePicture = function() {};
 camera.on('ready', function() {
   console.log('vc0706 ready');
 
-  takePicture = function() {
+  takePicture = function(callback) {
     if (makingExposure) {
       return;
     }
@@ -33,7 +33,8 @@ camera.on('ready', function() {
         return;
       }
 
-      var name = 'image-' + (Math.floor(Date.now()/1000)).toString() + '.jpg';
+      var name = 'image-' + (Math.floor(Date.now()/1000)).toString() +
+                 '.jpg';
       console.log('sending', name);
       process.sendfile(name, image);
     });
@@ -44,7 +45,7 @@ camera.on('error', function(err) {
   console.error('camera:', err);
 });
 
-motion.on('rise', function(time, type) {
+motion.on('rise', function() {
   console.log('Something moved; I will photograph it.');
   // Could make this take a photo at a regular interval,
   // as long as the sensor sees something.

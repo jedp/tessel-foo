@@ -51,7 +51,8 @@ ambient.on('ready', function() {
         console.error('camera: ', err);
         return;
       }
-      var name = 'image-' + (Math.floor(Date.now()/1000)).toString() + '.jpg';
+      var name = 'image-' + (Math.floor(Date.now()/1000)).toString() +
+                 '.jpg';
       console.log('sending', name);
       process.sendfile(name, image);
     });

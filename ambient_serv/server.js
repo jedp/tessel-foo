@@ -34,10 +34,10 @@ http.createServer(function(req, res) {
   console.log('Handling', req.url);
 
   switch (req.url) {
-    case "/data":
+    case '/data':
       returnData(req, res);
       break;
-    case "/":
+    case '/':
       returnHome(req, res);
       break;
     default:
