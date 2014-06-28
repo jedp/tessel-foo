@@ -1,0 +1,16 @@
+{
+  "curly": true,
+  "forin": true,
+  "freeze": true,
+  "indent": 2,
+  "latedef": true,
+  "nonbsp": true,
+  "quotmark": "single",
+  "undef": true,
+  "unused": true,
+  "trailing": true,
+  "maxlen": 72,
+ 
+  "node": true,
+  "moz": false
+} 
